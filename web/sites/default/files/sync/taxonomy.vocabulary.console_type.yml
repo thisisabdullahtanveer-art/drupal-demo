@@ -1,0 +1,9 @@
+uuid: b2c90aa5-c6ca-4180-8194-b0618ad5b402
+langcode: en
+status: true
+dependencies: {  }
+name: 'Console Type'
+vid: console_type
+description: 'This is about gaming console type'
+weight: 0
+new_revision: false

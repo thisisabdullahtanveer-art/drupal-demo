@@ -1,0 +1,29 @@
+uuid: e825470a-422f-4291-92d2-569b1d9c09eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_console_type
+    - node.type.game
+    - taxonomy.vocabulary.console_type
+id: node.game.field_console_type
+field_name: field_console_type
+entity_type: node
+bundle: game
+label: 'Console Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      console_type: console_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: 3873e238-d9fe-4fdb-9c95-763ead8988a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.game
+id: node.game.field_rating
+field_name: field_rating
+entity_type: node
+bundle: game
+label: Rating
+description: 'Enter a rating between 0.0 and 10.0 using one decimal place '
+required: false
+translatable: false
+default_value:
+  -
+    value: 8.5
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 10.0
+  prefix: ''
+  suffix: /10
+field_type: decimal
