@@ -1,0 +1,15 @@
+uuid: ff419d55-7d6b-4324-aec5-9bf9e127e68a
+langcode: en
+status: true
+dependencies: {  }
+name: game_teaser_small
+label: 'Game Teaser Small'
+effects:
+  31857e70-096b-4b7c-92c3-19acf3f6b042:
+    uuid: 31857e70-096b-4b7c-92c3-19acf3f6b042
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300
+      anchor: center-center

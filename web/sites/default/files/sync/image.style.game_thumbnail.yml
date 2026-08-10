@@ -1,0 +1,15 @@
+uuid: 7191869e-5974-481e-9610-8982a00c58c4
+langcode: en
+status: true
+dependencies: {  }
+name: game_thumbnail
+label: 'Game Thumbnail'
+effects:
+  51eb7ecf-6984-40ee-bc43-8cb01d11d171:
+    uuid: 51eb7ecf-6984-40ee-bc43-8cb01d11d171
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 120
+      anchor: center-center

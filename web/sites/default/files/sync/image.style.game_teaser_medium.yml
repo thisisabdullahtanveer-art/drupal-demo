@@ -1,0 +1,15 @@
+uuid: eb0ca8ba-45aa-45c9-9eea-8d5ab185f649
+langcode: en
+status: true
+dependencies: {  }
+name: game_teaser_medium
+label: 'Game Teaser Medium'
+effects:
+  89dedb43-c5c3-4e18-8ff8-35ba02c2967a:
+    uuid: 89dedb43-c5c3-4e18-8ff8-35ba02c2967a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 600
+      anchor: center-center

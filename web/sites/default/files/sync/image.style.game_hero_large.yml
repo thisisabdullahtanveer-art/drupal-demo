@@ -1,0 +1,15 @@
+uuid: 3289585f-8f2e-4eb4-bd37-1a35916346ad
+langcode: en
+status: true
+dependencies: {  }
+name: game_hero_large
+label: 'Game Hero Large'
+effects:
+  d86c685f-24d3-42b9-9ac7-6c88e186d5f2:
+    uuid: d86c685f-24d3-42b9-9ac7-6c88e186d5f2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1599
+      height: 960
+      anchor: center-center

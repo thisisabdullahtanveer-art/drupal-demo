@@ -10,11 +10,10 @@ dependencies:
     - field.field.node.game.field_rating
     - field.field.node.game.field_tags
     - field.field.node.game.field_teaser_image
-    - image.style.medium
     - node.type.game
   module:
-    - image
     - layout_builder
+    - responsive_image
     - text
     - user
 third_party_settings:
@@ -46,11 +45,11 @@ content:
     weight: 2
     region: content
   field_teaser_image:
-    type: image
+    type: responsive_image
     label: above
     settings:
+      responsive_image_style: ''
       image_link: ''
-      image_style: medium
       image_loading:
         attribute: lazy
     third_party_settings: {  }
